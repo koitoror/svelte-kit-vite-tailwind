@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Adm\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --prefer-offline
+
+PATH: 
+  C:\Users\Adm\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Adm\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\ImageMagick-6.9.8-Q16;C:\xampp\php;C:\Users\Adm\AppData\Local\Programs\Python\Python39;C:\Users\Adm\AppData\Local\Programs\Python\Python39\Scripts;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\OpenSSH;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\LINQPad4;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-13.0.2;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.222-4;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.222-4\bin;C:\Users\Adm\AppData\Local\Android\Sdk\platform-tools\adb.exe;C:\ProgramData\chocolatey\bin;C:\Program Files\Redis;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\PuTTY;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Adm\AppData\Roaming\Python\Python39;C:\Users\Adm\AppData\Roaming\Python\Python39\Scripts;C:\Users\Adm\AppData\Local\Programs\Python\Python39;C:\Users\Adm\AppData\Local\Programs\Python\Python39\Scripts;C:\Ruby27-x64\bin;'\home\daniel\.local\bin';C:\Users\Adm\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Users\Adm\AppData\Local\Android\Sdk\platform-tools;C:\Users\Adm\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\Adm\AppData\Local\Android\Sdk\platform-tools\adb.exe;C:\adb\adb.exe;C:\Program Files\nodejs;C:\Users\Adm\AppData\Roaming\Composer\vendor\bin;C:\Users\Adm\AppData\Local\GitHubDesktop\bin;C:\selenium\geckodriver.exe;C:\selenium\chromedriver.exe;C:\src\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;C:\Users\Adm\AppData\Local\Microsoft\WindowsApps;C:\Users\Adm\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\cygwin64\bin;C:\Users\Adm\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Invariant Violation: There should only be one folder in a package cache (got  in C:\Users\Adm\AppData\Local\Yarn\Cache\v6\npm-acorn-3.3.0-45e37fb39e8da3f25baee3ff5369e2bb5f22017a-integrity\node_modules)
+      at invariant (C:\Users\Adm\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:2314:15)
+      at C:\Users\Adm\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:60674:7
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Adm\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Adm\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "svelte-kit-pokedex",
+  	"version": "0.0.1",
+  	"scripts": {
+  		"dev": "svelte-kit dev",
+  		"build": "svelte-kit build",
+  		"preview": "svelte-kit preview",
+  		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+  		"format": "prettier --write --plugin-search-dir=. ."
+  	},
+  	"devDependencies": {
+  		"@sveltejs/kit": "next",
+  		"@typescript-eslint/eslint-plugin": "^4.19.0",
+  		"@typescript-eslint/parser": "^4.19.0",
+  		"autoprefixer": "^10.2.6",
+  		"eslint": "^7.22.0",
+  		"eslint-config-prettier": "^8.1.0",
+  		"eslint-plugin-svelte3": "^3.2.0",
+  		"prettier": "~2.2.1",
+  		"prettier-plugin-svelte": "^2.2.0",
+  		"svelte": "^3.34.0",
+  		"svelte-preprocess": "^4.0.0",
+  		"tailwindcss": "^2.1.2",
+  		"tslib": "^2.0.0",
+  		"typescript": "^4.0.0"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
